@@ -65,8 +65,10 @@ internal class Program
     {
         for (int i = 1; i < n; i++)
         {
+            int key = a[i];
+
             int j = i;
-            while (j > 0 && a[j]<= a[j-1]) {
+            while (j > 0 && a[j] > key) {
                 int temp = a[j];
                 a[j] = a[j-1];
                 a[j-1] = temp;

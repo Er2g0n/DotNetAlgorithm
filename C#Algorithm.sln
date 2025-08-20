@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_05_TITV_BinarySearch", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_06_TITV_InsertionSort", "Bai_06_TITV_InsertionSort\Bai_06_TITV_InsertionSort.csproj", "{F6470DEF-10C2-4AFF-BF4F-D7AD49146498}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "300_Valid_Parentheses", "300_Valid_Parentheses\300_Valid_Parentheses.csproj", "{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{F6470DEF-10C2-4AFF-BF4F-D7AD49146498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6470DEF-10C2-4AFF-BF4F-D7AD49146498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6470DEF-10C2-4AFF-BF4F-D7AD49146498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
