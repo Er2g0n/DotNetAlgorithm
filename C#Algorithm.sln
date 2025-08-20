@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_06_TITV_InsertionSort",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "300_Valid_Parentheses", "300_Valid_Parentheses\300_Valid_Parentheses.csproj", "{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_14_Longest_Common_Prefix", "LeetCode_14_Longest_Common_Prefix\LeetCode_14_Longest_Common_Prefix.csproj", "{832E2A9C-63F7-4018-AFAE-B4DC6ABC7049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_26_Remove_Duplicates_from_Sorted_Array", "LeetCode_26_Remove_Duplicates_from_Sorted_Array\LeetCode_26_Remove_Duplicates_from_Sorted_Array.csproj", "{1387CEA6-2242-4FB4-B3DA-7260A94329BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B997BB20-66F0-42A8-A29B-98F13F6A1BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832E2A9C-63F7-4018-AFAE-B4DC6ABC7049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832E2A9C-63F7-4018-AFAE-B4DC6ABC7049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832E2A9C-63F7-4018-AFAE-B4DC6ABC7049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832E2A9C-63F7-4018-AFAE-B4DC6ABC7049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1387CEA6-2242-4FB4-B3DA-7260A94329BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1387CEA6-2242-4FB4-B3DA-7260A94329BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1387CEA6-2242-4FB4-B3DA-7260A94329BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1387CEA6-2242-4FB4-B3DA-7260A94329BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
