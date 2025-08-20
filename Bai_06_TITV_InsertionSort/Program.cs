@@ -61,29 +61,46 @@ i = 4
 
 internal class Program
 {
-    static int insertionSort(int[] a, int n)
+    static void InsertionSort(int[] a, int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            int j = i;
+            while (j > 0 && a[j] < a[j - 1]) // Fixed condition
+            {
+                int temp = a[j];
+                a[j] = a[j - 1];
+                a[j - 1] = temp;
+                j--;
+            }
+        }
+    }
+
+    static void InsertionSort2(int[] a, int n)
     {
         for (int i = 1; i < n; i++)
         {
             int key = a[i];
 
-            int j = i;
-            while (j > 0 && a[j] > key) {
-                int temp = a[j];
-                a[j] = a[j-1];
-                a[j-1] = temp;
+            int j = i - 1;
+            while (j >= 0 && a[j] > key)
+            {
+                a[j + 1] = a[j];
                 j--;
+            }
+            a[j + 1] = key;
         }
-        for i = 2 
-            key = 
     }
+
     static void Main(string[] args)
     {
-        int[] a= new int[100];
-
-        Console.WriteLine("Hello, World!");
-        insertionSort(0, 0);
+        int[] a = { 5, 2, 6, 7, 3 };
+        int n = a.Length;
+        InsertionSort(a, n);
         Console.WriteLine();
-
+        foreach (var item in a)
+        {
+            Console.Write(item + " ");
+        }
     }
 }
