@@ -23,14 +23,17 @@ internal class Program
         }
         return result.ToString();
     }
+
+
     static void Main(string[] args)
     {
 
         //string[] strs = { "flower", "flow", "flight" };
         //string[] strs = { "dog", "racecar", "car" };
         Console.WriteLine("Enter the number of strings\r\n: ");
-        string[]strs = new string[n];
         int n = int.Parse(Console.ReadLine());
+
+        string[] strs = new string[n];
 
         for (int i = 0;i < n;i++)
         {
