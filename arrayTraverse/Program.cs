@@ -46,7 +46,7 @@ class Program
             switch (choice)
             {
                 case 1:
-                    AddElement();
+                    //AddElement();
                     break;
                
                 case 0:
